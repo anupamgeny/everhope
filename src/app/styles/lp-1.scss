@@ -1,0 +1,16 @@
+.heroSection {
+  background: var(--bg-one);
+  background-image: url("/assets/images/lp-1/banner-vactor.png");
+  background-repeat: no-repeat !important;
+  background-position: top left !important;
+  .second-hero-background {
+    background-image: url("/assets/images/lp-1/desktop-banner.png");
+    background-repeat: no-repeat !important;
+    background-position: top left !important;
+    min-height: 555px;
+  }
+  .tick-mark{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: white;
+  }
+}
