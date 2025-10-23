@@ -3,13 +3,13 @@ const StepInside = () => {
   return (
     <section className="mx-auto w-full px-3 pt-5 pb-10 lg:w-7xl">
       <div className="mx-auto mb-10 w-full max-w-6xl">
-        <h2 className="text-center text-4xl md:text-5xl">
+        <h2 className="text-center text-3xl md:text-4xl">
           <span className="text-[#666666]">Step inside, </span>
           <span className="font-semibold text-[var(--primary-color)]">
             Everhope
           </span>
         </h2>
-        <p className="mt-5 text-center text-3xl text-[#666666]">
+        <p className="mt-5 text-center text-2xl text-[#666666]">
           A quiet preview of what to expect — and what makes us different.
         </p>
       </div>

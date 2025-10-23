@@ -23,7 +23,7 @@ const BetterExperience = ({ cards }: CardsProps) => {
   return (
     <section className="mx-auto w-full px-3 pt-5 pb-10">
       <div className="mx-auto mb-10 w-full max-w-6xl">
-        <h2 className="text-center text-4xl md:text-5xl">
+        <h2 className="text-center text-3xl md:text-4xl">
           <span className="text-[#666666]">More Than Treatment: </span>
           <br />
           <span className="font-semibold text-[var(--primary-color)]">
@@ -31,7 +31,7 @@ const BetterExperience = ({ cards }: CardsProps) => {
           </span>
         </h2>
       </div>
-      <div className="">
+      <div className="mx-5">
         <Swiper
           modules={[FreeMode, Navigation]}
           spaceBetween={5}
@@ -59,7 +59,7 @@ const BetterExperience = ({ cards }: CardsProps) => {
                     width={60}
                     height={60}
                     className={styles.iconImg}
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: "contain", width: "100% !important", height: "auto" }}
                   />
                 </div>
 

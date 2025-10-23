@@ -21,8 +21,8 @@ const PersonalizedTreatments = () => {
               className=""
             />
             <div>
-              <h3 className="text-2xl font-bold">Chemotherapy</h3>
-              <p className="text-lg">Targeting malignant cell growth</p>
+              <h3 className="text-xl md:text-2xl font-bold">Chemotherapy</h3>
+              <p className="text-sm md:text-lg">Targeting malignant cell growth</p>
             </div>
           </div>
         </div>
@@ -36,8 +36,8 @@ const PersonalizedTreatments = () => {
               className=""
             />
             <div>
-              <h3 className="text-2xl font-bold">Immunotherapy</h3>
-              <p className="text-lg">Boosting your body&apos;s defenses</p>
+              <h3 className="text-xl md:text-2xl font-bold">Immunotherapy</h3>
+              <p className="text-sm md:text-lg">Boosting your body&apos;s defenses</p>
             </div>
           </div>
         </div>
@@ -51,8 +51,8 @@ const PersonalizedTreatments = () => {
               className=""
             />
             <div>
-              <h3 className="text-2xl font-bold">Targeted therapy</h3>
-              <p className="text-lg">
+              <h3 className="text-xl md:text-2xl font-bold">Targeted therapy</h3>
+              <p className="text-sm md:text-lg">
                 Precision treatments for specific cellular changes
               </p>
             </div>
@@ -68,8 +68,8 @@ const PersonalizedTreatments = () => {
               className=""
             />
             <div>
-              <h3 className="text-2xl font-bold">Hormonal therapy</h3>
-              <p className="text-lg">Blocking cancer-feeding hormones</p>
+              <h3 className="text-xl md:text-2xl font-bold">Hormonal therapy</h3>
+              <p className="text-sm md:text-lg">Blocking cancer-feeding hormones</p>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ const SideEffect = () => {
   return (
     <section className="mx-auto w-full pt-5 pb-10 lg:w-7xl">
       <div className="mx-auto w-full max-w-4xl">
-        <h2 className="text-center text-4xl">
+        <h2 className="text-center text-3xl md:text-4xl">
           <span className="text-[#666666]">All the Power of </span>
           <span className="font-semibold text-[var(--primary-color)]">
             Modern Chemotherapy.
@@ -15,7 +15,7 @@ const SideEffect = () => {
             Side Effects.
           </span>
         </h2>
-        <p className="mt-2 text-center text-lg">
+        <p className="mt-5 text-center text-lg">
           <strong>Chemotherapy</strong> is one of the most powerful tools in
           cancer care. At Everhope, we <strong>personalise</strong> it using{" "}
           <strong>precision oncology</strong>
@@ -34,20 +34,20 @@ const SideEffect = () => {
           </div>
           <div className="mt-10">
             <div className="text-[var(--text-color-one)]">
-              <h3 className="mb-10 text-center text-4xl font-bold">
-                What we look at ?
+              <h3 className="mb-10 text-center text-2xl md:text-3xl font-bold">
+                What we look at?
               </h3>
-              <ul className="grid list-disc grid-cols-1 gap-4 text-xl">
+              <ul className="grid list-disc grid-cols-1 gap-4 text-md md:text-xl mx-8 md:mx-0">
                 <li>Your cancer&apos;s biology (ER/PR, HER2, BRCA)</li>
                 <li>Your stage and response profile</li>
-<li>What your body actually needs — and what it doesn&apos;t</li>
+                <li>What your body actually needs — and what it doesn&apos;t</li>
               </ul>
             </div>
             <div className="mt-10 text-[var(--text-color-one)]">
-              <h3 className="mb-10 text-center text-4xl font-bold">
+              <h3 className="mb-10 text-center text-2xl md:text-3xl font-bold">
                 How will it help the patients ?
               </h3>
-              <div className="grid grid-cols-1 gap-4 text-2xl text-[var(--text-color-one)] sm:grid-cols-2">
+              <div className="grid grid-cols-2 gap-4 text-xl text-[var(--text-color-one)] sm:grid-cols-2">
                 <div>
                   <div className="">
                     <Image
