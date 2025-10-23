@@ -2,7 +2,7 @@ import Image from "next/image";
 import BookButton from "./BookButton";
 const SideEffect = () => {
   return (
-    <section className="mx-auto w-full pt-5 pb-10 lg:w-7xl">
+    <section className="mx-auto w-full pt-5 py-10 my-16 lg:w-7xl">
       <div className="mx-auto w-full max-w-4xl">
         <h2 className="text-center text-3xl md:text-4xl">
           <span className="text-[#666666]">All the Power of </span>

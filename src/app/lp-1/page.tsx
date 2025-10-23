@@ -9,6 +9,8 @@ import PersonalizedTreatments from "../components/PersonalizedTreatments";
 import StepInside from "../components/StepInside";
 import BetterExperience from "../components/BetterExperience";
 import Footer from "../components/FooterSection";
+import CentreOfExcellence from "@/app/components/CentreOfExcellence";
+import Testimonials from "@/app/components/Testimonials";
 
 const doctorsData = [
   {
@@ -215,6 +217,8 @@ export default function LandingPage() {
         <ContactForm />
       </div>
       <ExpertSection doctors={doctorsData} />
+      <CentreOfExcellence />
+      <Testimonials />
       <SideEffect />
       <CommonSection />
       <PersonalizedTreatments />
