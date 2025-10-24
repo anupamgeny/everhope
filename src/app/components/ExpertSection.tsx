@@ -28,9 +28,9 @@ const ExpertSection = ({ doctors }: DoctorsProps) => {
   return (
     <section className="flex flex-1 items-center justify-center py-14">
       <div className="mx-5 w-full max-w-7xl">
-        <h2 className="text-center text-4xl md:text-6xl">
+        <h2 className="text-center">
           <span className="text-[#666666]">Meet the Experts </span>
-          <span className="font-semibold text-[var(--primary-color)]">
+          <span className="font-medium text-[var(--primary-color)]">
             Behind Your Care
           </span>
         </h2>
@@ -59,9 +59,9 @@ const ExpertSection = ({ doctors }: DoctorsProps) => {
                 </div>
                 {/* Right Text */}
                 <div className="ml-4 flex-1">
-                  <h3 className="text-lg font-bold text-[var(--primary-color)]">
+                  <h6 className="mb-1 text-[var(--primary-color)]">
                     {doc.name}
-                  </h3>
+                  </h6>
                   <p className="text-sm">{doc.doctorDesc}</p>
                   <p>
                     <span className="font-semibold">Experience:</span>{" "}

@@ -6,19 +6,23 @@ import ContactForm from "./Form";
 const HeroSection = () => {
   return (
     <section className="flex flex-1 items-center justify-center bg-[var(--bg-one)] bg-[url('/assets/images/lp-1/banner-vactor.png')] bg-left-top bg-no-repeat">
-      <div className="relative min-h-[600px] w-full bg-[url('/assets/images/lp-1/mobile-banner.png')] bg-bottom-right bg-no-repeat lg:min-h-[555px] lg:bg-[url('/assets/images/lp-1/desktop-banner.png')] lg:bg-bottom-left">
-        <div className="mx-auto flex max-w-7xl items-center justify-end pt-20">
+      <div className="relative min-h-[500px] w-full bg-[url('/assets/images/lp-1/mobile-banner.png')] bg-bottom-right bg-no-repeat lg:min-h-[500px] lg:bg-[url('/assets/images/lp-1/desktop-banner.png')] lg:bg-bottom-left">
+        <div className="mx-auto flex max-w-7xl items-center justify-end pt-5 lg:pt-20">
           {/* Single right column */}
           <div className="mx-5 w-full lg:mx-0 lg:w-1/2">
             <div className="mb-5 flex w-fit gap-2 rounded-[20px] border-2 border-white bg-[#FFFFFF]/50 p-2 px-3 shadow-md">
               <FaRegCheckCircle className="h-6 w-6 text-red-400" />
               <span className="font-semibold">No Cost EMI Available</span>
             </div>
-            <h2 className="mb-4 text-2xl leading-9 font-semibold md:text-4xl lg:text-5xl lg:leading-16 lg:font-bold">
+            <h1 className="mb-4">
               Get upto{" "}
-              <span className="primary__color">25% off on Chemotherapy</span> in
-              Gurgaon
-            </h2>
+              <span className="primary__color">
+                25% off on
+                <br />
+                Chemotherapy
+              </span>{" "}
+              in Gurgaon
+            </h1>
             <ul>
               <li className="flex items-center gap-2 text-sm md:text-lg">
                 <IoCheckmarkCircleSharp className="text-2xl text-[var(--primary-color)]" />{" "}

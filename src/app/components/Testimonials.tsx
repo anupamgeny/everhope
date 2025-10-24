@@ -80,17 +80,17 @@ const Testimonials = () => {
   const nextRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="bg-gradient-to-b from-white via-[#F9EDE3] to-white py-20">
+    <section className="bg-gradient-to-b from-white via-[#F9EDE3] to-white py-5">
       <div className="mx-auto w-full max-w-4xl">
-        <h2 className="text-center text-4xl md:text-5xl">
+        <h2 className="text-center">
           <span className="text-[#666666]">Patients & Families </span>
-          <span className="text-[var(--primary-color)]">
+          <span className="font-medium text-[var(--primary-color)]">
             Feel the Difference
           </span>
         </h2>
       </div>
 
-      <div className="mx-auto w-full max-w-7xl pt-10">
+      <div className="mx-5 pt-10 md:mx-auto lg:max-w-7xl">
         <Swiper
           modules={[Navigation]}
           spaceBetween={24}
@@ -137,9 +137,9 @@ const Testimonials = () => {
                             </div>
                           )}
                           <div>
-                            <h4 className="font-semibold text-gray-800">
+                            <h6 className="font-semibold text-gray-800">
                               {t.name}
-                            </h4>
+                            </h6>
                             <p className="text-sm text-gray-500">{t.company}</p>
                           </div>
                         </div>
@@ -190,9 +190,9 @@ const Testimonials = () => {
                       </div>
 
                       <div className="mt-4 text-center">
-                        <h4 className="font-semibold text-gray-800">
+                        <h6 className="font-semibold text-gray-800">
                           {t.name}
-                        </h4>
+                        </h6>
                         <p className="text-sm text-gray-500">{t.company}</p>
                       </div>
                     </div>

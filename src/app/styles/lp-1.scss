@@ -1,16 +1,118 @@
-.heroSection {
-  background: var(--bg-one);
-  background-image: url("/assets/images/lp-1/banner-vactor.png");
-  background-repeat: no-repeat !important;
-  background-position: top left !important;
-  .second-hero-background {
-    background-image: url("/assets/images/lp-1/desktop-banner.png");
-    background-repeat: no-repeat !important;
-    background-position: top left !important;
-    min-height: 555px;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap');
+
+/* Global font setup */
+body {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+/*h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}*/
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+/* Links */
+a {
+  color: #007aff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #0056b3;
+    text-decoration: underline;
   }
-  .tick-mark{
-    background-color: rgba(255, 255, 255, 0.4);
-    border-color: white;
-  }
+}
+
+/* Lists */
+ul, ol {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+/* Blockquotes */
+blockquote {
+  font-style: italic;
+  color: var(--color-muted);
+  border-left: 4px solid #ddd;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Small text */
+small {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+}
+
+/* Utility classes */
+.text-muted {
+  color: var(--color-muted);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  h1 { font-size: 24px; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
 }

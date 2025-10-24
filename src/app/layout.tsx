@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Roboto_Mono, Libre_Franklin } from "next/font/google";
-
+import "./styles/lp-1.scss";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],

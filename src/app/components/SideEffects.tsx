@@ -2,9 +2,9 @@ import Image from "next/image";
 import BookButton from "./BookButton";
 const SideEffect = () => {
   return (
-    <section className="mx-auto w-full pt-5 py-10 my-16 lg:w-7xl">
+    <section className="mx-auto my-16 w-full py-5 pt-5 lg:w-7xl">
       <div className="mx-auto w-full max-w-4xl">
-        <h2 className="text-center text-3xl md:text-4xl">
+        <h2 className="text-center">
           <span className="text-[#666666]">All the Power of </span>
           <span className="font-semibold text-[var(--primary-color)]">
             Modern Chemotherapy.
@@ -34,17 +34,19 @@ const SideEffect = () => {
           </div>
           <div className="mt-10">
             <div className="text-[var(--text-color-one)]">
-              <h3 className="mb-10 text-center text-2xl md:text-3xl font-bold">
+              <h3 className="mb-10 text-center text-2xl font-bold md:text-3xl">
                 What we look at?
               </h3>
-              <ul className="grid list-disc grid-cols-1 gap-4 text-md md:text-xl mx-8 md:mx-0">
+              <ul className="text-md mx-8 grid list-disc grid-cols-1 gap-4 md:mx-0 md:text-xl">
                 <li>Your cancer&apos;s biology (ER/PR, HER2, BRCA)</li>
                 <li>Your stage and response profile</li>
-                <li>What your body actually needs — and what it doesn&apos;t</li>
+                <li>
+                  What your body actually needs — and what it doesn&apos;t
+                </li>
               </ul>
             </div>
             <div className="mt-10 text-[var(--text-color-one)]">
-              <h3 className="mb-10 text-center text-2xl md:text-3xl font-bold">
+              <h3 className="mb-10 text-center text-2xl font-bold md:text-3xl">
                 How will it help the patients ?
               </h3>
               <div className="grid grid-cols-2 gap-4 text-xl text-[var(--text-color-one)] sm:grid-cols-2">
