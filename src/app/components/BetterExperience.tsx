@@ -21,8 +21,8 @@ interface CardsProps {
 }
 const BetterExperience = ({ cards }: CardsProps) => {
   return (
-    <section className="mx-auto w-full px-3 pt-5 pb-10">
-      <div className="mx-auto mb-10 w-full max-w-6xl">
+    <section className="mx-auto w-[100%] px-3 pt-5 pb-10">
+      <div className="mx-auto mb-10">
         <h2 className="text-center text-3xl md:text-4xl">
           <span className="text-[#666666]">More Than Treatment: </span>
           <br />
@@ -34,7 +34,7 @@ const BetterExperience = ({ cards }: CardsProps) => {
       <div className="mx-5">
         <Swiper
           modules={[FreeMode, Navigation]}
-          spaceBetween={5}
+          spaceBetween={10}
           freeMode={true}
           loop={true}
           navigation={{
@@ -42,9 +42,13 @@ const BetterExperience = ({ cards }: CardsProps) => {
             prevEl: ".custom-prev",
           }}
           breakpoints={{
-            640: { slidesPerView: 2 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 4 },
+            320: { slidesPerView: 1 }, // small phones
+            480: { slidesPerView: 1 }, // larger phones
+            640: { slidesPerView: 2 }, // small tablets
+            768: { slidesPerView: 2 }, // tablets
+            1024: { slidesPerView: 3 }, // small laptops
+            1280: { slidesPerView: 3 }, // desktops
+            1440: { slidesPerView: 4 }, // large desktops
           }}
           className="overflow-visible !pt-10"
         >
@@ -59,7 +63,11 @@ const BetterExperience = ({ cards }: CardsProps) => {
                     width={60}
                     height={60}
                     className={styles.iconImg}
-                    style={{ objectFit: "contain", width: "100% !important", height: "auto" }}
+                    style={{
+                      objectFit: "contain",
+                      width: "100% !important",
+                      height: "auto",
+                    }}
                   />
                 </div>
 

@@ -11,6 +11,7 @@ import BetterExperience from "../components/BetterExperience";
 import Footer from "../components/FooterSection";
 import CentreOfExcellence from "@/app/components/CentreOfExcellence";
 import Testimonials from "@/app/components/Testimonials";
+import ABetterExperience from "@/app/components/ABetterExperiance";
 
 const doctorsData = [
   {
@@ -223,7 +224,8 @@ export default function LandingPage() {
       <CommonSection />
       <PersonalizedTreatments />
       <StepInside />
-      <BetterExperience cards={cards} />
+      {/*<BetterExperience cards={cards} />*/}
+      <ABetterExperience />
       <Footer />
     </div>
   );
