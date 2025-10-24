@@ -11,8 +11,8 @@ const CommonSection = () => {
           </span>
         </h2>
       </div>
-      <div className="mx-auto mt-5 grid w-full max-w-7xl grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-6">
-        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow">
+      <div className="mx-auto mt-5 grid w-full max-w-7xl grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow-md">
           <Image
             src="/assets/images/lp-1/common-icon1.png"
             alt="asdsad"
@@ -24,7 +24,7 @@ const CommonSection = () => {
             Breast Cancer
           </p>
         </div>
-        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow">
+        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow-md">
           <Image
             src="/assets/images/lp-1/common-icon2.png"
             alt="asdsad"
@@ -36,7 +36,7 @@ const CommonSection = () => {
             Oral Cancer
           </p>
         </div>
-        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow">
+        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow-md">
           <Image
             src="/assets/images/lp-1/common-icon3.png"
             alt="asdsad"
@@ -49,7 +49,7 @@ const CommonSection = () => {
             Colorectal Cancer
           </p>
         </div>
-        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow">
+        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow-md">
           <Image
             src="/assets/images/lp-1/common-icon4.png"
             alt="asdsad"
@@ -61,7 +61,7 @@ const CommonSection = () => {
             Cervical Cancer
           </p>
         </div>
-        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow">
+        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow-md">
           <Image
             src="/assets/images/lp-1/common-icon5.png"
             alt="asdsad"
@@ -73,7 +73,7 @@ const CommonSection = () => {
             Lung Cancer
           </p>
         </div>
-        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow">
+        <div className="max-w-md items-start rounded-3xl border border-gray-200 bg-white p-4 shadow-md">
           <Image
             src="/assets/images/lp-1/common-icon6.png"
             alt="asdsad"

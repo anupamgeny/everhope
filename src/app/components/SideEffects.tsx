@@ -60,7 +60,9 @@ const SideEffect = () => {
                       className="mx-auto mb-5 rounded-3xl"
                     />
                   </div>
-                  <p className="mx-auto text-center">Fewer side effects</p>
+                  <p className="mx-auto text-center text-[16px] md:text-lg">
+                    Fewer side effects
+                  </p>
                 </div>
                 <div>
                   <div className="">
@@ -72,7 +74,9 @@ const SideEffect = () => {
                       className="mx-auto mb-5 rounded-3xl"
                     />
                   </div>
-                  <p className="mx-auto text-center">No over-treatment</p>
+                  <p className="mx-auto text-center text-[16px] md:text-lg">
+                    No over-treatment
+                  </p>
                 </div>
                 <div>
                   <div className="">
@@ -84,7 +88,9 @@ const SideEffect = () => {
                       className="mx-auto mb-5 rounded-3xl"
                     />
                   </div>
-                  <p className="mx-auto text-center">Faster recovery</p>
+                  <p className="mx-auto text-center text-[16px] md:text-lg">
+                    Faster recovery
+                  </p>
                 </div>
                 <div>
                   <div className="">
@@ -96,7 +102,7 @@ const SideEffect = () => {
                       className="mx-auto mb-5 rounded-3xl"
                     />
                   </div>
-                  <p className="mx-auto text-center">
+                  <p className="mx-auto text-center text-[16px] md:text-lg">
                     Improved Quality of Life
                   </p>
                 </div>

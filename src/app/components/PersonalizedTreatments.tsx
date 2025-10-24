@@ -11,7 +11,7 @@ const PersonalizedTreatments = () => {
         </h2>
       </div>
       <div className="mx-auto mt-5 grid w-full max-w-7xl grid-cols-1 gap-4 md:grid-cols-2">
-        <div className="max-full items-start rounded-xl bg-[#FEE6E2] p-10">
+        <div className="max-full items-start rounded-xl bg-[#FEE6E2] p-4 lg:p-6">
           <div className="flex gap-4">
             <Image
               src="/assets/images/lp-1/chemotherapy.webp"
@@ -21,12 +21,14 @@ const PersonalizedTreatments = () => {
               className=""
             />
             <div>
-              <h3 className="text-xl md:text-2xl font-bold">Chemotherapy</h3>
-              <p className="text-sm md:text-lg">Targeting malignant cell growth</p>
+              <h3 className="text-xl font-bold md:text-2xl">Chemotherapy</h3>
+              <p className="text-sm md:text-lg">
+                Targeting malignant cell growth
+              </p>
             </div>
           </div>
         </div>
-        <div className="max-full items-start rounded-xl bg-[#FEE6E2] p-10">
+        <div className="max-full items-start rounded-xl bg-[#FEE6E2] p-4 lg:p-6">
           <div className="flex gap-4">
             <Image
               src="/assets/images/lp-1/immunotherapy.webp"
@@ -36,12 +38,14 @@ const PersonalizedTreatments = () => {
               className=""
             />
             <div>
-              <h3 className="text-xl md:text-2xl font-bold">Immunotherapy</h3>
-              <p className="text-sm md:text-lg">Boosting your body&apos;s defenses</p>
+              <h3 className="text-xl font-bold md:text-2xl">Immunotherapy</h3>
+              <p className="text-sm md:text-lg">
+                Boosting your body&apos;s defenses
+              </p>
             </div>
           </div>
         </div>
-        <div className="max-full items-start rounded-xl bg-[#FEE6E2] p-10">
+        <div className="max-full items-start rounded-xl bg-[#FEE6E2] p-4 lg:p-6">
           <div className="flex gap-4">
             <Image
               src="/assets/images/lp-1/targettherapy.webp"
@@ -51,14 +55,16 @@ const PersonalizedTreatments = () => {
               className=""
             />
             <div>
-              <h3 className="text-xl md:text-2xl font-bold">Targeted therapy</h3>
+              <h3 className="text-xl font-bold md:text-2xl">
+                Targeted therapy
+              </h3>
               <p className="text-sm md:text-lg">
                 Precision treatments for specific cellular changes
               </p>
             </div>
           </div>
         </div>
-        <div className="max-full items-start rounded-xl bg-[#FEE6E2] p-10">
+        <div className="max-full items-start rounded-xl bg-[#FEE6E2] p-4 lg:p-6">
           <div className="flex gap-4">
             <Image
               src="/assets/images/lp-1/hormonaltherapy.webp"
@@ -68,8 +74,12 @@ const PersonalizedTreatments = () => {
               className=""
             />
             <div>
-              <h3 className="text-xl md:text-2xl font-bold">Hormonal therapy</h3>
-              <p className="text-sm md:text-lg">Blocking cancer-feeding hormones</p>
+              <h3 className="text-xl font-bold md:text-2xl">
+                Hormonal therapy
+              </h3>
+              <p className="text-sm md:text-lg">
+                Blocking cancer-feeding hormones
+              </p>
             </div>
           </div>
         </div>
