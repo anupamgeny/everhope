@@ -13,7 +13,7 @@ const CentreOfExcellence = () => {
         </h2>
       </div>
       <div className="mx-4 mt-5 grid grid-cols-1 gap-4 md:max-w-7xl md:grid-cols-2 lg:mx-auto">
-        <div className="max-full items-start rounded-xl bg-[#FFFFFF] p-5 lg:p-10">
+        <div className="max-full items-start rounded-xl bg-[#FFFFFF] p-4 lg:p-8">
           <div className="flex gap-4">
             <Image
               src="/assets/images/lp-1/Medical-Oncology.png"
@@ -36,7 +36,7 @@ const CentreOfExcellence = () => {
             </div>
           </div>
         </div>
-        <div className="max-full items-start rounded-xl bg-[#FFFFFF] p-5 lg:p-10">
+        <div className="max-full items-start rounded-xl bg-[#FFFFFF] p-4 lg:p-8">
           <div className="flex gap-4">
             <Image
               src="/assets/images/lp-1/Surgical-Oncology.png"
@@ -53,7 +53,7 @@ const CentreOfExcellence = () => {
             </div>
           </div>
         </div>
-        <div className="max-full items-start rounded-xl bg-[#FFFFFF] p-10">
+        <div className="max-full items-start rounded-xl bg-[#FFFFFF] p-4 lg:p-8">
           <div className="flex gap-4">
             <Image
               src="/assets/images/lp-1/Molecular-Oncology.png"
@@ -72,7 +72,7 @@ const CentreOfExcellence = () => {
             </div>
           </div>
         </div>
-        <div className="max-full items-start rounded-xl bg-[#FFFFFF] p-10">
+        <div className="max-full items-start rounded-xl bg-[#FFFFFF] p-4 lg:p-8">
           <div className="flex gap-4">
             <Image
               src="/assets/images/lp-1/Moleculer-Tumour-Board.png"
