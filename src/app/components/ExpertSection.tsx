@@ -52,30 +52,30 @@ const ExpertSection = ({ doctors }: DoctorsProps) => {
                   />
                   <Link
                     href={doc.profileLink!}
-                    className="mx-auto mt-2 inline-block text-sm font-bold"
+                    className="mx-auto mt-3 inline-block w-full text-center text-sm font-bold"
                   >
                     View Profile
                   </Link>
                 </div>
                 {/* Right Text */}
                 <div className="ml-4 flex-1">
-                  <h6 className="mb-1 text-[var(--primary-color)]">
+                  <h6 className="mb-1 !font-[600] text-[var(--primary-color)]">
                     {doc.name}
                   </h6>
-                  <p className="text-sm">{doc.doctorDesc}</p>
-                  <p>
+                  <p className="!my-0 text-sm">{doc.doctorDesc}</p>
+                  <p className="m-0">
                     <span className="font-semibold">Experience:</span>{" "}
                     {doc.experience}
                   </p>
                 </div>
               </div>
-              <div className="my-4 border-1 border-r-0 border-l-0 border-gray-400 py-1 text-center text-sm font-semibold uppercase">
+              <div className="my-1 border-1 border-r-0 border-l-0 border-gray-400 py-1 text-center text-sm font-semibold uppercase">
                 {doc.tagline}
               </div>
               <div>
-                <p className="font-semibold">Clinical Interests</p>
+                <p className="!mb-0 font-semibold">Clinical Interests</p>
                 <p className="text-sm">{doc.interests}</p>
-                <p className="mt-2 font-semibold">Cancer Focus Areas</p>
+                <p className="mt-2 !mb-0 font-semibold">Cancer Focus Areas</p>
                 <ul className="ml-4 grid list-disc grid-cols-2 gap-4 text-sm marker:text-red-500">
                   {doc.focusAreas.map((area, i) => (
                     <li key={i}>{area}</li>
