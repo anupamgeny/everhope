@@ -80,7 +80,7 @@ const Testimonials = () => {
   const nextRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="bg-gradient-to-b from-white via-[#F9EDE3] to-white py-5">
+    <section className="bg-gradient-to-b from-white via-[#F9EDE3] to-white pt-24">
       <div className="mx-auto w-full max-w-4xl">
         <h2 className="text-center">
           <span className="text-[#666666]">Patients & Families </span>

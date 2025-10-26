@@ -38,7 +38,7 @@ const Footer = () => {
       </footer>
 
       <div className="mt-5 w-full bg-[#FEE6E2]">
-        <div className="mx-3 p-10 text-center">
+        <div className="mx-3 py-10 text-center">
           <Image
             src="/assets/images/common/logo.webp"
             alt="Logo"
@@ -46,7 +46,7 @@ const Footer = () => {
             height={100}
             className="mx-auto"
           />
-          <div className="flex justify-center gap-4 pt-5 text-sm text-[#6b7280]">
+          <div className="flex w-full justify-center gap-4 pt-5 text-sm text-[#6b7280]">
             <span>© EverHope Oncology 2025</span>
             <span>|</span>
             <span>Privacy</span>
