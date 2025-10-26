@@ -1,20 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Roboto_Mono, Libre_Franklin } from "next/font/google";
+import { Roboto_Mono, Libre_Franklin } from "next/font/google";
 import "./styles/lp-1.scss";
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const robotoMono = Roboto_Mono({
-  variable: "--font-roboto-mono",
-  subsets: ["latin"],
-});
-
-const libreFranklin = Libre_Franklin({
-  variable: "--font-libre-franklin",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Best Chemotherapy Treatment in India - Personalised Care",
@@ -31,11 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${robotoMono.variable} ${libreFranklin.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

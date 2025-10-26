@@ -2,24 +2,33 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="mx-auto w-full pt-5">
-        <div className="mx-auto h-[400px] md:h-auto lg:w-7xl">
-          <div className="mx-3 grid h-64 divide-y-2 divide-[var(--primary-color)] md:mx-0 md:grid-cols-2 md:divide-x-2 md:divide-y-0">
-            <div className="flex items-center justify-end p-10">
-              <h2 className="text-center text-5xl text-[#666666] md:text-right">
-                Find a Clinic{" "}
-                <span className="text-[var(--primary-color)]">Near You</span>
+      <footer className="mx-auto w-full pt-5 md:pt-20">
+        <div className="mx-auto h-auto lg:w-7xl">
+          <div className="mx-3 grid md:mx-0 md:grid-cols-2 md:divide-x md:divide-y-0 md:divide-[var(--primary-color)]">
+            {/* Left Section */}
+            <div className="p-2 md:flex md:items-center md:justify-center">
+              <h2 className="text-center text-4xl text-[#666666] md:text-right md:text-5xl">
+                Visit our{" "}
+                <span className="font-[600] text-[var(--primary-color)]">
+                  Centre
+                  <br />
+                  of Excellence
+                </span>
               </h2>
             </div>
-            <div className="flex items-center p-10">
-              <div className="h-auto">
-                <h2 className="mb-5 text-4xl font-bold text-[var(--primary-color)]">
+
+            {/* Small Divider for mobile only */}
+            <div className="mx-auto block h-[0.5px] w-1/5 bg-[var(--primary-color)] md:hidden"></div>
+
+            {/* Right Section */}
+            <div className="flex items-center p-2">
+              <div className="h-auto w-full">
+                <h2 className="mb-3 text-center text-3xl !font-[500] text-[var(--primary-color)] md:mb-5 md:text-left md:text-4xl">
                   Gurgaon EBD 65
                 </h2>
-                <p className="text-2xl text-[#666666] md:text-3xl">
+                <p className="text-center text-lg text-[#666666] md:text-left md:text-2xl">
                   EBD 65, Sector 65, Golf Course
-                </p>
-                <p className="pt-5 text-2xl text-[#666666] md:text-3xl">
+                  <br />
                   Extension Road, Gurgaon
                 </p>
               </div>
@@ -27,6 +36,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+
       <div className="mt-5 w-full bg-[#FEE6E2]">
         <div className="mx-3 p-10 text-center">
           <Image

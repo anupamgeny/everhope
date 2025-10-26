@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap');
 
+/* Define your global font variable */
+:root {
+  --font-primary: 'Libre Franklin', sans-serif;
+}
 /* Global font setup */
 body {
   font-family: var(--font-primary);
